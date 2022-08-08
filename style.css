@@ -4,20 +4,22 @@
     margin: 0;
     padding: 0;
     font-family:cursive;
-    
 }
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: rgb(0, 0, 68);
+    color: gold;
 }
 .container{
     text-align: center;
 }
 h2{
     font-size: 2rem;
-    margin: 0.5rem;
+    margin: 1rem;
+    color: goldenrod;
 }
 h1{
     font-size: 3rem;
@@ -28,9 +30,22 @@ h1{
 }
 button{
     display: block;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     padding: 0.5rem;
     width: 10rem;
     font-size: 1.1rem;
     font-weight: 800;
+    border: none;
+    background-color: #2020a5;
+    color: goldenrod;
+    border-radius: 8px;
+    box-shadow: 0 0 7px 1px cyan;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #040477;
+    box-shadow: 0 0 7px 1px gold;
+}
+button:active{
+    transform: scale(0.95);
 }

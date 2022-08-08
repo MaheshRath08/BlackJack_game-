@@ -38,7 +38,7 @@ function displayIt(){
     }
 
     if(sum<21){
-        message = "Draw a new card to keep on trying?"
+        message = "You can draw a new card"
     }else if(sum === 21){
         message = "Congrats!! You got BlackJack"
         hasWon = true
