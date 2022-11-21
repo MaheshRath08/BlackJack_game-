@@ -36,13 +36,13 @@ button{
     font-size: 1.1rem;
     font-weight: 800;
     border: none;
-    background-color: #2020a5;
-    color: goldenrod;
+    background-color: #9393df;
     border-radius: 8px;
-    box-shadow: 0 0 7px 1px cyan;
+    box-shadow: 0 0 7px 1px black;
     cursor: pointer;
 }
 button:hover{
+    color: goldenrod;
     background-color: #040477;
     box-shadow: 0 0 7px 1px gold;
 }
