@@ -43,7 +43,7 @@ button{
 }
 button:hover{
     color: goldenrod;
-    background-color: #040477;
+    background-color: #12124b;
     box-shadow: 0 0 7px 1px gold;
 }
 button:active{
